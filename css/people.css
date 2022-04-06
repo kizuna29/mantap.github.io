@@ -1,0 +1,155 @@
+.people-main
+{
+    padding: 100px;
+}
+
+.people h4
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 120%;
+    /* or 58px */
+
+    letter-spacing: 0.005em;
+
+    color: #353C35;
+}
+
+/* carousel */
+
+.square
+{
+    width: 676px;
+    height: 384px;
+    background: rgba(53, 60, 53, 0.1);
+    border-radius: 12px;
+}
+
+.car
+{
+    padding-top: 100px;
+    height: 81.16vh;
+
+
+}
+
+.people-main .car>button 
+{
+
+    width: 24px;
+    height: 24px;
+    
+}
+
+
+
+.people-main .lingkaran
+{
+    background: #FF7A00;
+    width: 24px;
+    height: 24px;
+    border-radius:100% ;
+}
+
+.people-main .lingkaran span
+{
+    width: 12px;
+    height: 18px;
+}
+
+.gambar img
+{
+    position: relative;
+    top: 50px;
+}
+.square img
+{
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.square h5
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    text-align: center;
+    letter-spacing: 0.005em;
+}
+
+.nama
+{
+    position: relative;
+    top: 80px;
+}
+.nama h3
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+
+    letter-spacing: 0.005em;
+
+    color: #353C35;
+
+}
+
+/* responsive */
+
+@media(max-width:700px)
+{
+    .people-main
+    {
+        margin-top: 1100px;
+        padding: 0;
+    }
+
+    .people-main .people h4
+    {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .square
+    {
+        width: 236px;
+        height: 354px;
+        background: rgba(53, 60, 53, 0.1);
+        border-radius: 12px;
+        
+    }
+
+    .square h5
+    {
+        font-size: 14px;
+    }
+
+    .nama h3
+    {
+        font-size: 20px;
+    }
+    .nama h5
+    {
+        font-size: 14px;
+    }
+
+    .nama
+    {
+        position: relative;
+        top: 50px;
+    }
+
+    .car
+    {
+        padding: 0;
+    }
+}

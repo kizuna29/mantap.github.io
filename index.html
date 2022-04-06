@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Bootsrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Furnice.</title>
+    
+</head>
+<body>
+
+    <!-- Include Header -->
+    <div id="header"></div>
+
+
+<!-- =========================== Scripts Area =========================== -->
+    <!-- Include why -->
+
+    <div id="why"></div>
+    <div id="produk"></div>
+    <div id="people"></div>
+    <div id="help"></div>
+
+    <!-- Include Footer -->
+    <div id="footer"></div>
+
+    <!-- =========================== Scripts Area =========================== -->
+
+
+    <!-- Jquery JS -->
+    <script src="./js/jquery3.6.0.js"></script>
+    
+    <!-- Bootsrap JS -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script>
+
+        $(function(){
+            $("#header").load("header.html");
+            $("#why").load("why.html");
+            $("#produk").load("produk.html");
+            $("#people").load("people.html");
+            $("#help").load("help.html");
+        });
+
+        $(function(){
+            $("#footer").load("footer.html");
+        });
+
+    </script>
+    
+</body>
+</html>

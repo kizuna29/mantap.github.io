@@ -1,0 +1,115 @@
+.help
+{
+    width: 100%;
+    padding-bottom: 5rem;
+
+}
+.need h1
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 120%;
+    /* identical to box height, or 58px */
+
+    letter-spacing: 0.005em;
+
+    color: #353C35;
+    }
+.help .gambar img
+{
+    width: 530px;
+    height: 651px;
+}
+
+.help .gambar
+{
+    margin-bottom: 100px;
+}
+
+.help .form form input
+{
+    border-bottom: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0%;
+   
+    
+}
+
+.help .form form label
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+
+    letter-spacing: 0.005em;
+
+    color: #353C35;
+    
+}
+
+.help .form form textarea
+{
+    border-radius: 12px;
+
+}
+
+.help .form form button
+{
+    background: rgba(255, 122, 0, 0.75);
+    border-radius: 8px;
+    width: 166px;
+    height: 54px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: white;
+}
+
+
+/* responsive */
+
+@media(max-width: 700px)
+{
+    .help h1
+    {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .help .gm
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .help .gm .gambar img
+    {
+        width: 290px;
+        height: 356.21px;
+    }
+
+    .help .form form
+    {
+        width: 290px;
+        height: 100px;
+    }
+    .help .form form textarea
+    {
+        width: 290px;
+        height: 100px;
+    }
+
+    .help
+    {
+        padding-bottom: 800px;
+    }
+}

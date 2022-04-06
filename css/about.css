@@ -1,0 +1,86 @@
+.text h1
+{
+    padding-top: 100px;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 120%;
+    color: #353C35;
+}
+
+
+
+.body
+{
+    height: 81.16vh;
+    /* background-color: aqua; */
+}
+
+
+
+.about .services
+{
+    width: 21rem;
+    transition:box-shadow .7s ease ;
+    display: inline-block;
+    text-align: justify;
+ 
+}
+
+
+.about .services h5
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    color: #353C35;
+}
+.about .services p
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+
+/* responsive */
+
+@media(max-width: 700px)
+{
+    .about .mantap
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about .mantap h5
+    {
+        font-size: 24px;
+    }
+
+    .text h1
+    {
+        font-size: 36px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about .services
+    {
+        width: 18rem;
+        display: inline-block;
+        text-align: justify;
+    
+    }
+
+    .about
+    {
+        display: flex;
+        justify-content: center;
+    }
+}
